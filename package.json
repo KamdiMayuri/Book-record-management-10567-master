@@ -1,0 +1,28 @@
+{
+  "name": "book-record-management-10567",
+  "version": "1.0.0",
+  "description": "Book record management server build with node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeInsideU/Book-Management-10567.git"
+  },
+  "author": "Vratik Zade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeInsideU/Book-Management-10567/issues"
+  },
+  "homepage": "https://github.com/CodeInsideU/Book-Management-10567#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
